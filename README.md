@@ -8,7 +8,7 @@ An interactive, robust Systems-focused Developer Portfolio engineered by **Jan I
 
 ---
 
-## 🌟 Key Interactive Features
+##  Key Interactive Features
 
 1. **Dynamic Project Catalog & Deep-Dive Modal**:
    - Filter systems across *Web Applications*, *Systems & Tools*, and *Mobile & IoT*.
@@ -29,7 +29,7 @@ An interactive, robust Systems-focused Developer Portfolio engineered by **Jan I
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Core Structure:** Semantic HTML5, ARIA accessibility attributes.
 - **Styling Architecture:** Vanilla CSS3, CSS Custom Properties (Tokens), CSS Grid & Flexbox, Backdrop Blur Filters.
@@ -39,7 +39,7 @@ An interactive, robust Systems-focused Developer Portfolio engineered by **Jan I
 
 ---
 
-## 🚀 Agile Planning & Git Workflow
+##  Agile Planning & Git Workflow
 
 - **Milestones:**
   - `Milestone 1`: System Scaffolding & Design System Architecture
