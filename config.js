@@ -1,1 +1,1 @@
-﻿const THEME_LEGACY = 'dark';
+﻿const THEME_LEGACY = 'dark'; const AUTO_DETECT = true;
