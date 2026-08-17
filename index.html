@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jan Isaac - Software Engineer & Systems Developer Portfolio. Explore interactive projects, technical skill matrix, and engineering experience.">
+  <meta name="keywords" content="Jan Isaac, Software Engineer, Web Developer, Portfolio, Strathmore University, Full Stack, Git Workflow">
+  <meta name="author" content="Jan Isaac">
+  <title>Jan Isaac | Software Engineer & Systems Developer</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Header -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-bracket">&lt;</span>JI <span class="brand-slash">/</span><span class="brand-bracket">&gt;</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About</a>
+        <a href="#projects" class="nav-link"><i class="fa-solid fa-code-branch"></i> Projects</a>
+        <a href="#skills" class="nav-link"><i class="fa-solid fa-microchip"></i> Skills</a>
+        <a href="#experience" class="nav-link"><i class="fa-solid fa-timeline"></i> Journey</a>
+        <a href="#contact" class="nav-link"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn-icon" id="cmdToggle" title="Open Command Terminal (Ctrl+K)" aria-label="Open developer terminal">
+          <i class="fa-solid fa-terminal"></i>
+          <span class="cmd-shortcut">Ctrl+K</span>
+        </button>
+        <button class="btn-icon" id="themeToggle" title="Toggle Light/Dark Theme" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-status">
+            <span class="status-indicator"></span>
+            Available for Software Engineering Roles & Collaboration
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight-text">Jan Isaac</span>.
+            <br>
+            Building Scalable Systems & Modern Interfaces.
+          </h1>
+          <p class="hero-subtitle">
+            Software engineering student at Strathmore University passionate about system architectures, full-stack web applications, agile engineering workflows, and clean code principles.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-folder-open"></i> View Projects
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="fa-solid fa-envelope"></i> Get in Touch
+            </a>
+            <button class="btn btn-secondary" id="resumeBtn">
+              <i class="fa-solid fa-file-arrow-down"></i> Resume Summary
+            </button>
+          </div>
+
+          <div class="hero-metrics">
+            <div class="metric-card">
+              <span class="metric-val" id="metricProjects">12+</span>
+              <span class="metric-label">Repositories & Labs</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-val">100%</span>
+              <span class="metric-label">Git Workflow Compliance</span>
+            </div>
+            <div class="metric-card">
+              <span class="metric-val">4+</span>
+              <span class="metric-label">Core Tech Stacks</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-terminal-preview">
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="terminal-title">jan-isaac@workstation: ~</span>
+            </div>
+            <div class="terminal-body">
+              <p class="terminal-line"><span class="t-prompt">$</span> <span class="t-cmd">whoami</span></p>
+              <p class="t-output">Jan Isaac &mdash; Software Engineer & Tech Innovator</p>
+              <p class="terminal-line"><span class="t-prompt">$</span> <span class="t-cmd">git status</span></p>
+              <p class="t-output t-green">On branch main &bull; Ready to ship scalable solutions</p>
+              <p class="terminal-line"><span class="t-prompt">$</span> <span class="t-cmd">cat skills.json</span></p>
+              <p class="t-output t-cyan">["JavaScript", "Python", "Java", "SQL", "Git/CI-CD"]</p>
+              <div class="terminal-input-row">
+                <span class="t-prompt">$</span>
+                <span class="t-cursor">_</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-subtitle">Overview</p>
+          <h2 class="section-title">Engineering Mindset & Background</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-card">
+            <h3>Crafting Software with Precision & Discipline</h3>
+            <p>
+              I am a passionate software engineering practitioner focused on designing reliable, user-centered applications and robust backend systems. My methodology combines strict version control, test-driven validation, and agile project tracking to deliver software that scales.
+            </p>
+            <p>
+              Beyond coding, I actively implement modern DevOps patterns — managing feature branches, conducting peer code reviews through PRs, and maintaining semantic commit histories.
+            </p>
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <i class="fa-solid fa-graduation-cap highlight-icon"></i>
+                <div>
+                  <strong>Strathmore University</strong>
+                  <p>Informatics & Computer Science Department</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-code-commit highlight-icon"></i>
+                <div>
+                  <strong>Agile & Git Specialist</strong>
+                  <p>Conventional Commits, Branching, & CI/CD Pipelines</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-stats-card">
+            <h3>Core Engineering Principles</h3>
+            <ul class="principles-list">
+              <li>
+                <div class="p-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <div>
+                  <strong>Branch Isolation & Protection</strong>
+                  <p>Zero direct pushes to main; every feature is vetted via pull requests.</p>
+                </div>
+              </li>
+              <li>
+                <div class="p-icon"><i class="fa-solid fa-list-check"></i></div>
+                <div>
+                  <strong>Traceable Project Management</strong>
+                  <p>Granular milestone-to-issue mapping and active Kanban lifecycle tracking.</p>
+                </div>
+              </li>
+              <li>
+                <div class="p-icon"><i class="fa-solid fa-bolt"></i></div>
+                <div>
+                  <strong>Clean Architecture & Performance</strong>
+                  <p>Writing maintainable, modular, and accessible frontend and backend components.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-subtitle">Portfolio Showcase</p>
+          <h2 class="section-title">Featured Projects & Systems</h2>
+          <p class="section-desc">Interactive filterable catalog of systems engineered across web, mobile, and systems engineering.</p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="filter-wrapper">
+          <div class="filter-tabs" id="projectFilter">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="web">Web Apps</button>
+            <button class="filter-btn" data-filter="systems">Systems & Tools</button>
+            <button class="filter-btn" data-filter="mobile">Mobile & IoT</button>
+          </div>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Dynamic Project Cards rendered via app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-subtitle">Technical Toolkit</p>
+          <h2 class="section-title">Skills & Technologies</h2>
+          <p class="section-desc">Tools, frameworks, and methodologies I leverage to design and deploy software.</p>
+        </div>
+
+        <div class="skills-grid" id="skillsGrid">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience / Education Timeline -->
+    <section class="section timeline-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-subtitle">Career Pathway</p>
+          <h2 class="section-title">Education & Milestones</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-code"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2024 &mdash; Present</span>
+              <h3>Software Engineering & Agile Systems Development</h3>
+              <h4>Strathmore University &bull; IS Projects</h4>
+              <p>Implemented enterprise Git workflows, sprint planning, pull request reviews, and CI/CD pipelines deploying static and dynamic cloud apps.</p>
+              <div class="timeline-tags">
+                <span class="tag">Agile</span>
+                <span class="tag">Git CI/CD</span>
+                <span class="tag">System Design</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-laptop-code"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2023 &mdash; 2024</span>
+              <h3>Full-Stack Application Development</h3>
+              <h4>Independent & Academic Systems</h4>
+              <p>Designed database-backed client-server systems, RESTful micro-services, and interactive web user interfaces.</p>
+              <div class="timeline-tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">Python</span>
+                <span class="tag">SQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-subtitle">Get In Touch</p>
+          <h2 class="section-title">Connect & Collaborate</h2>
+          <p class="section-desc">Have a question or looking to build something impactful together? Send a direct message.</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-info-card">
+            <h3>Direct Contact Channels</h3>
+            <p>I welcome discussions regarding engineering roles, open-source projects, and technical problem solving.</p>
+            
+            <div class="contact-details">
+              <div class="contact-detail-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <strong>Email</strong>
+                  <a href="mailto:jan.maina@strathmore.edu">jan.maina@strathmore.edu</a>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <i class="fa-brands fa-github"></i>
+                <div>
+                  <strong>GitHub Profile</strong>
+                  <a href="https://github.com/JanIsaac-1" target="_blank" rel="noopener noreferrer">github.com/JanIsaac-1</a>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <strong>Location</strong>
+                  <span>Nairobi, Kenya</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-card">
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="contactName">Full Name *</label>
+                <input type="text" id="contactName" name="name" placeholder="e.g. Alex Morgan" required>
+                <span class="error-msg" id="nameError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail">Email Address *</label>
+                <input type="email" id="contactEmail" name="email" placeholder="alex@example.com" required>
+                <span class="error-msg" id="emailError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contactSubject">Subject *</label>
+                <input type="text" id="contactSubject" name="subject" placeholder="Project Inquiry / Opportunity" required>
+                <span class="error-msg" id="subjectError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage">Message *</label>
+                <textarea id="contactMessage" name="message" rows="4" placeholder="Hello Jan, I'd like to discuss..." required></textarea>
+                <span class="error-msg" id="messageError"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                <i class="fa-solid fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Project Modal -->
+  <div class="modal-overlay" id="projectModal">
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose" aria-label="Close modal">&times;</button>
+      <div class="modal-body" id="modalContent">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive Terminal Drawer -->
+  <div class="terminal-modal-overlay" id="cliModal">
+    <div class="cli-terminal-window">
+      <div class="cli-header">
+        <div class="terminal-dots">
+          <span class="dot red" id="cliClose"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+        </div>
+        <span class="cli-title"><i class="fa-solid fa-terminal"></i> Jan Isaac DevShell v1.0.0</span>
+        <button class="cli-close-btn" id="cliCloseBtn">&times;</button>
+      </div>
+      <div class="cli-output" id="cliOutput">
+        <div class="cli-welcome">
+          <p>Welcome to <strong>Jan Isaac's Interactive Terminal Shell</strong>.</p>
+          <p>Type <span class="highlight">help</span> to view available commands.</p>
+        </div>
+      </div>
+      <div class="cli-input-bar">
+        <span class="cli-prompt">jan@portfolio:~$</span>
+        <input type="text" id="cliInput" placeholder="Type a command (help, projects, skills, contact, clear)..." autocomplete="off" autofocus>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <i class="fa-solid fa-circle-check toast-icon"></i>
+    <span class="toast-text" id="toastText">Message sent successfully!</span>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <p>&copy; 2026 <strong>Jan Isaac</strong>. Deployed via GitHub Pages.</p>
+        <p class="footer-subtext">Built with semantic HTML, CSS Custom Properties, and modular JavaScript.</p>
+      </div>
+      <div class="footer-right">
+        <a href="https://github.com/JanIsaac-1" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:jan.maina@strathmore.edu" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="#hero" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="app.js"></script>
+</body>
+</html>
