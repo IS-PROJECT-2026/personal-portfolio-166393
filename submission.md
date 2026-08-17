@@ -5,14 +5,14 @@
 - **Full Name:** Jan Isaac
 - **GitHub Username:** JanIsaac-1
 - **Email:** jan.maina@strathmore.edu
-- **Admission Number:** [Your Admission Number]
-- **Class Team:** [e.g., GROUP 4A]
+- **Admission Number:** 166393
+- **Class Team:** GROUP 4D
 
 ---
 
 ## 2. Deployed Project Link
 
-- **Live GitHub Pages URL:** https://is-project-2026.github.io/portfolio-[admission-number]/
+- **Live GitHub Pages URL:** https://is-project-2026.github.io/personal-portfolio-166393/
 
 ---
 
@@ -22,17 +22,17 @@
 
 ### A. Your Best Commit
 
-- **Commit URL:** https://github.com/IS-PROJECT-2026/portfolio-[admission-number]/commit/[insert-commit-hash]
+- **Commit URL:** https://github.com/IS-PROJECT-2026/personal-portfolio-166393/commit/[insert-commit-hash]
 - **Why this one?** This commit demonstrates clean Conventional Commit practice by utilizing the `feat(terminal)` scope tag with an imperative subject line under 50 characters (`feat(terminal): add interactive dev CLI shell`). The body explains the architectural implementation of keyboard shortcuts (`Ctrl+K`) and command parsing, while the footer includes `Closes #2`, ensuring complete end-to-end traceability between issue planning and code delivery.
 
 ### B. A Mistake or Struggle
 
-- **Link to the evidence:** https://github.com/IS-PROJECT-2026/portfolio-[admission-number]/commit/[insert-commit-hash]
+- **Link to the evidence:** https://github.com/IS-PROJECT-2026/personal-portfolio-166393/commit/[insert-commit-hash]
 - **What happened and how did you recover?** When merging feature branch `feat/6-theme-persistence` into `main`, a merge conflict occurred because changes from two separate branches simultaneously altered the CSS variable declarations in `style.css`. Git failed automatic merging. I analyzed the incoming changes, retained the unified token palette, resolved the conflict markers manually in the editor, and committed the clean two-parent resolution commit (`fix(conflict): resolve theme token collisions in style.css`).
 
 ### C. A Pull Request You're Proud Of
 
-- **PR URL:** https://github.com/IS-PROJECT-2026/portfolio-[admission-number]/pull/[insert-pr-number]
+- **PR URL:** https://github.com/IS-PROJECT-2026/personal-portfolio-166393/pull/[insert-pr-number]
 - **What did you check before merging?** Prior to merging PR #3 (`feat: implement project catalog modal and filters`), I completed a structured self-review:
   1. Verified that responsive breakpoints correctly reflowed project cards on mobile viewports.
   2. Confirmed zero JavaScript runtime exceptions in the browser console.
@@ -42,7 +42,7 @@
 ### D. One Thing You Would Do Differently
 
 - **What would you change?** If restarting this project, I would implement automated Git hooks (e.g., using Husky or GitHub Actions) from Day 1 to automatically lint commit messages against the Conventional Commits specification. While my manual discipline was maintained, automated enforcement eliminates any risk of malformed commit subjects before pushing to remote.
-- **Link to the evidence of the original decision:** https://github.com/IS-PROJECT-2026/portfolio-[admission-number]/issues/1
+- **Link to the evidence of the original decision:** https://github.com/IS-PROJECT-2026/personal-portfolio-166393/issues/1
 
 ---
 

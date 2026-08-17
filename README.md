@@ -1,8 +1,9 @@
 # Jan Isaac — Software Engineer & Systems Showcase Portfolio
 
-> Live Deployment: [https://is-project-2026.github.io/portfolio-138141/](https://is-project-2026.github.io/portfolio-138141/)  
-> Organization: **IS-PROJECT-2026** &bull; Class Team: **GROUP 4A**
+> Live Deployment: [https://is-project-2026.github.io/personal-portfolio-166393/](https://is-project-2026.github.io/personal-portfolio-166393/)  
+> Organization: **IS-PROJECT-2026** &bull; Class Team: **GROUP 4D** &bull; Admission No: **166393**
 
+An interactive, AI-enhanced, and performance-optimized Developer Portfolio engineered by **Jan Isaac** for the Strathmore University IS Project engineering curriculum.
 An interactive, robust Systems-focused Developer Portfolio engineered by **Jan Isaac** for the Strathmore University IS Project engineering curriculum.
 
 ---
