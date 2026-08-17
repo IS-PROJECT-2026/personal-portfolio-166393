@@ -4,6 +4,7 @@
 > Organization: **IS-PROJECT-2026** &bull; Class Team: **GROUP 4A**
 
 An interactive, AI-enhanced, and performance-optimized Developer Portfolio engineered by **Jan Isaac** for the Strathmore University IS Project engineering curriculum.
+An interactive, robust Systems-focused Developer Portfolio engineered by **Jan Isaac** for the Strathmore University IS Project engineering curriculum.
 
 ---
 
